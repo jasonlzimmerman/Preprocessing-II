@@ -250,3 +250,13 @@ img {
   width: 30%;
   margin-bottom: 30px;
 }
+.home .content-pick .destination button {
+  color: #FFFFFF;
+  background-color: #17A2B8;
+  font-size: 1.4rem;
+  padding: 10px;
+  border: 1px solid #C0C0C0;
+  text-align: center;
+  border-radius: 10px;
+  width: 200px;
+}
