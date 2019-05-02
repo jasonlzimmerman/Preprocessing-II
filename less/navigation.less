@@ -3,6 +3,10 @@
     border-bottom: 2px dashed @navigation-border;
     padding: 20px 0;
 
+    @media @mobile {
+        padding: 20px 0 0 0;
+      }
+
     .header-content {
         width: 800px;
         margin: 0 auto;
@@ -10,8 +14,16 @@
         justify-content: space-between;
         align-content: center;
 
+        @media @mobile {
+            width: 100%;
+            text-align: center;
+            flex-flow: column nowrap;
+            justify-content: center;
+          }
+
             nav {
                 display: flex;
+                justify-content: space-evenly;
                 
                 a {
                     margin: 15px;
